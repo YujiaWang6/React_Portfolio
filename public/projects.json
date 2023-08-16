@@ -1,0 +1,48 @@
+[
+    {
+        "id":1,
+        "title":"All About The Universe",
+        "blurb":"Welcome to the 'All About the Universe' project! This project aims to provide users with information about the planets, an introduction to the International Space Station (ISS), and a daily Astronomy Picture of the Day (APOD) from NASA.",
+        "detailDescription":"DESCRIPTION:Welcome to the 'All About the Universe' project! This project aims to provide users with information about the planets, an introduction to the International Space Station (ISS), and a daily Astronomy Picture of the Day (APOD) from NASA.",
+        "image":"projectPhoto/AllAboutTheUniverse.png",
+        "deployingUrl":"https://github.com/YujiaWang6/AllAboutTheUniverse_NodeJS",
+        "githubUrl":"https://github.com/YujiaWang6/AllAboutTheUniverse_NodeJS",
+        "languages":
+            [
+                {
+                    "id":2,
+                    "name":"CSS",
+                    "icon":"icon/css.svg"
+                },
+                {
+                    "id":6,
+                    "name":"Node.JS",
+                    "icon":"icon/nodejs.svg"
+                }
+
+            ]
+    },
+    {
+        "id":2,
+        "title":"All About The Universe",
+        "blurb":"Welcome to the 'All About the Universe' project! This project aims to provide users with information about the planets, an introduction to the International Space Station (ISS), and a daily Astronomy Picture of the Day (APOD) from NASA.",
+        "detailDescription":"DESCRIPTION:Welcome to the 'All About the Universe' project! This project aims to provide users with information about the planets, an introduction to the International Space Station (ISS), and a daily Astronomy Picture of the Day (APOD) from NASA.",
+        "image":"projectPhoto/AllAboutTheUniverse.png",
+        "deployingUrl":"https://github.com/YujiaWang6/AllAboutTheUniverse_NodeJS",
+        "githubUrl":"https://github.com/YujiaWang6/AllAboutTheUniverse_NodeJS",
+        "languages":
+            [
+                {
+                    "id":2,
+                    "name":"CSS",
+                    "icon":"icon/css.svg"
+                },
+                {
+                    "id":6,
+                    "name":"Node.JS",
+                    "icon":"icon/nodejs.svg"
+                }
+
+            ]
+    }
+]

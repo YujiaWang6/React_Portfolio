@@ -1,6 +1,8 @@
 {
+    "id":1,
     "myName": "Yujia Wang",
     "role": "Full Stack Developer",
+    "photo":"projectPhoto/photo.JPG",
     "resumeLink": "https://drive.google.com/file/d/1vm0GBdgy1D6n1J2_rLnyvyak_-46b_Wj/view?usp=drive_link",
     "email": "mailto:yujia.wang2@mail.mcgill.ca",
     "githubLink": "https://github.com/YujiaWang6",
