@@ -18,7 +18,7 @@ export default function Contact(){
                 }
             );
             let data = await response.json();
-            console.log(data);
+            //console.log(data);
             setEmail(data.email);
             setGithubLink(data.githubLink);
             setLinkedin(data.linkedin);

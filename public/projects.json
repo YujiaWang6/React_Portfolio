@@ -35,12 +35,12 @@
                 {
                     "id":2,
                     "name":"CSS",
-                    "icon":"icon/css.svg"
+                    "icon":"../../public/icon/css.svg"
                 },
                 {
                     "id":6,
                     "name":"Node.JS",
-                    "icon":"icon/nodejs.svg"
+                    "icon":"../../public/icon/nodejs.svg"
                 }
 
             ]
