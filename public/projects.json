@@ -27,15 +27,71 @@
     },
     {
         "id":2,
-        "route":"project/AllAboutTheUniverse2",
-        "title":"All About The Universe",
-        "blurb":"Welcome to the 'All About the Universe' project! This project aims to provide users with information about the planets, an introduction to the International Space Station (ISS), and a daily Astronomy Picture of the Day (APOD) from NASA.",
+        "route":"project/E-Commerce-CMS",
+        "title":"E-Commerce CMS",
+        "blurb":"Welcome to the E-Commerce CMS project, a content management system(CMS) built using the Laravel framework for managing an E-Commerce store's brands, categories, and products.",
         "detailDescription":"DESCRIPTION:Welcome to the 'All About the Universe' project! This project aims to provide users with information about the planets, an introduction to the International Space Station (ISS), and a daily Astronomy Picture of the Day (APOD) from NASA.",
-        "image":"projectPhoto/AllAboutTheUniverse.png",
-        "deployingUrl":"https://github.com/YujiaWang6/AllAboutTheUniverse_NodeJS",
-        "githubUrl":"https://github.com/YujiaWang6/AllAboutTheUniverse_NodeJS",
+        "image":"projectPhoto/CMS2.png",
+        "deployingUrl":"http://13.59.213.85/",
+        "githubUrl":"https://github.com/YujiaWang6/E-Commerce_CMS",
         "languages":
             [
+                {
+                    "id":9,
+                    "name":"PHP",
+                    "icon":"icon/php.svg",
+                    "alt":"image icon of PHP"
+                },
+                {
+                    "id":11,
+                    "name":"Laravel",
+                    "icon":"icon/laravel.svg",
+                    "alt":"image icon of Laravel"
+                },
+                {
+                    "id":10,
+                    "name":"MySQL",
+                    "icon":"icon/mysql.svg",
+                    "alt":"image icon of MySQL"
+                },
+                {
+                    "id":12,
+                    "name":"AWS",
+                    "icon":"icon/aws.svg",
+                    "alt":"image icon of AWS"
+                }
+
+            ]
+    },
+    {
+        "id":3,
+        "route":"project/BeadKeychainDesignPlatform",
+        "title":"Bead Keychain Design Platform",
+        "blurb":"Welcome to the E-Commerce CMS project, a content management system(CMS) built using the Laravel framework for managing an E-Commerce store's brands, categories, and products.",
+        "detailDescription":"DESCRIPTION:Welcome to the 'All About the Universe' project! This project aims to provide users with information about the planets, an introduction to the International Space Station (ISS), and a daily Astronomy Picture of the Day (APOD) from NASA.",
+        "image":"projectPhoto/keychainDesign.PNG",
+        "deployingUrl":"https://www.youtube.com/watch?v=P_AozuE1GIU&ab_channel=Helennn_W",
+        "githubUrl":"https://github.com/YujiaWang6/BeadKeychainDesignPlatform",
+        "languages":
+            [
+                {
+                    "id":4,
+                    "name":"C#",
+                    "icon":"icon/csharp.svg",
+                    "alt":"image icon of C sharp"
+                },
+                {
+                    "id":5,
+                    "name":"ASP.NET",
+                    "icon":"icon/aspNET.svg",
+                    "alt":"image icon of ASP.NET"
+                },
+                {
+                    "id":1,
+                    "name":"HTML",
+                    "icon":"icon/html.svg",
+                    "alt":"image icon of HTML"
+                },
                 {
                     "id":2,
                     "name":"CSS",
@@ -43,10 +99,66 @@
                     "alt":"image icon of CSS"
                 },
                 {
-                    "id":6,
-                    "name":"Node.JS",
-                    "icon":"icon/nodejs.svg",
-                    "alt":"image icon of Node.JS"
+                    "id":3,
+                    "name":"JAVASCRIPT",
+                    "icon":"icon/javascript.svg",
+                    "alt":"image icon of JAVASCRIPT"
+                },
+                {
+                    "id":13,
+                    "name":"Bootstrap",
+                    "icon":"icon/bootstrap.svg",
+                    "alt":"image icon of Bootstrap"
+                }
+
+            ]
+    },
+    {
+        "id":4,
+        "route":"project/GIFPhotoBooth",
+        "title":"GIF Photo Booth",
+        "blurb":"This project is a fun and quirky online photo booth where users can interact with a cute animated puppy dog character. Users have the ability to switch between different animated backgrounds and customize the accessories for the puppy dog, creating delightful and entertaining GIFs.",
+        "detailDescription":"DESCRIPTION:Welcome to the 'All About the Universe' project! This project aims to provide users with information about the planets, an introduction to the International Space Station (ISS), and a daily Astronomy Picture of the Day (APOD) from NASA.",
+        "image":"projectPhoto/photoBooth.png",
+        "deployingUrl":"https://yujiawang6.github.io/GIF-Photo-Booth/",
+        "githubUrl":"https://github.com/YujiaWang6/GIF-Photo-Booth",
+        "languages":
+            [
+                {
+                    "id":4,
+                    "name":"C#",
+                    "icon":"icon/csharp.svg",
+                    "alt":"image icon of C sharp"
+                },
+                {
+                    "id":5,
+                    "name":"ASP.NET",
+                    "icon":"icon/aspNET.svg",
+                    "alt":"image icon of ASP.NET"
+                },
+                {
+                    "id":1,
+                    "name":"HTML",
+                    "icon":"icon/html.svg",
+                    "alt":"image icon of HTML"
+                },
+                {
+                    "id":2,
+                    "name":"CSS",
+                    "icon":"icon/css.svg",
+                    "alt":"image icon of CSS"
+                },
+                {
+                    "id":3,
+                    "name":"JAVASCRIPT",
+                    "icon":"icon/javascript.svg",
+                    "alt":"image icon of JAVASCRIPT"
+                },
+                {
+                    "id":13,
+                    "name":"Bootstrap",
+                    "icon":"icon/bootstrap.svg",
+                    "alt":"image icon of Bootstrap"
                 }
 
             ]
