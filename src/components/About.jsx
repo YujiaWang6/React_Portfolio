@@ -5,6 +5,7 @@ export default function About(){
     const[role, setRole] = useState("");
     const[photo, setPhoto] = useState("");
     const[resume, setResume] = useState("");
+    const[shortIntro, setShortIntro] = useState("");
 
     useEffect(()=>{
         const getAbout = async() =>{
@@ -20,6 +21,7 @@ export default function About(){
             setRole(data.role);
             setPhoto(data.photo);
             setResume(data.resumeLink);
+            setShortIntro(data.shortIntro);
         };
         getAbout();
     },[]);
@@ -27,7 +29,7 @@ export default function About(){
     return(
         <div>
             <h1>{name}</h1>
-            <h2>{role}</h2>
+            <h2>{shortIntro}</h2>
             <img src={photo} width="400"></img>
             <a href={resume} target="_blank">Resume</a>
         </div>
