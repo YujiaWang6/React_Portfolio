@@ -2,67 +2,80 @@
     {
         "id":1,
         "name":"HTML",
-        "icon":"icon/html.svg"
+        "icon":"icon/html.svg",
+        "alt":"image icon of HTML"
     },
     {
         "id":2,
         "name":"CSS",
-        "icon":"icon/css.svg"
+        "icon":"icon/css.svg",
+        "alt":"image icon of CSS"
     },
     {
         "id":3,
         "name":"JAVASCRIPT",
-        "icon":"icon/javascript.svg"
+        "icon":"icon/javascript.svg",
+        "alt":"image icon of JAVASCRIPT"
     },
     {
         "id":4,
         "name":"C#",
-        "icon":"icon/csharp.svg"
+        "icon":"icon/csharp.svg",
+        "alt":"image icon of C sharp"
     },
     {
         "id":5,
         "name":"ASP.NET",
-        "icon":"icon/aspNET.svg"
+        "icon":"icon/aspNET.svg",
+        "alt":"image icon of ASP.NET"
     },
     {
         "id":6,
         "name":"Node.JS",
-        "icon":"icon/nodejs.svg"
+        "icon":"icon/nodejs.svg",
+        "alt":"image icon of Node.JS"
     },
     {
         "id":7,
         "name":"React",
-        "icon":"icon/react.svg"
+        "icon":"icon/react.svg",
+        "alt":"image icon of react"
     },
     {
         "id":8,
         "name":"MongoDB",
-        "icon":"icon/mongodb.svg"
+        "icon":"icon/mongodb.svg",
+        "alt":"image icon of MongoDB"
     },
     {
         "id":9,
         "name":"PHP",
-        "icon":"icon/php.svg"
+        "icon":"icon/php.svg",
+        "alt":"image icon of PHP"
     },
     {
         "id":10,
         "name":"MySQL",
-        "icon":"icon/mysql.svg"
+        "icon":"icon/mysql.svg",
+        "alt":"image icon of MySQL"
     },
     {
         "id":11,
         "name":"Laravel",
-        "icon":"icon/laravel.svg"
+        "icon":"icon/laravel.svg",
+        "alt":"image icon of Laravel"
     },
     {
         "id":12,
         "name":"AWS",
-        "icon":"icon/aws.svg"
+        "icon":"icon/aws.svg",
+        "alt":"image icon of AWS"
     },
     {
         "id":13,
         "name":"Bootstrap",
-        "icon":"icon/bootstrap.svg"
+        "icon":"icon/bootstrap.svg",
+        "alt":"image icon of Bootstrap"
     }
     
 ]

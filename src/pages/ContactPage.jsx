@@ -1,9 +1,12 @@
 import ContactForm from "../components/ContactForm.jsx"
+import Contact from "../components/Contact.jsx"
 export default function contact(){
     return(
-        <div>
+        <>
+            <h1>Contact Me</h1>
             <ContactForm/>
-        </div>
+            <Contact/>
+        </>
         
     )
 }

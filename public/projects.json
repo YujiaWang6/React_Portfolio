@@ -1,6 +1,7 @@
 [
     {
         "id":1,
+        "route":"project/AllAboutTheUniverse",
         "title":"All About The Universe",
         "blurb":"Welcome to the 'All About the Universe' project! This project aims to provide users with information about the planets, an introduction to the International Space Station (ISS), and a daily Astronomy Picture of the Day (APOD) from NASA.",
         "detailDescription":"DESCRIPTION:Welcome to the 'All About the Universe' project! This project aims to provide users with information about the planets, an introduction to the International Space Station (ISS), and a daily Astronomy Picture of the Day (APOD) from NASA.",
@@ -12,18 +13,21 @@
                 {
                     "id":2,
                     "name":"CSS",
-                    "icon":"icon/css.svg"
+                    "icon":"icon/css.svg",
+                    "alt":"image icon of CSS"
                 },
                 {
                     "id":6,
                     "name":"Node.JS",
-                    "icon":"icon/nodejs.svg"
+                    "icon":"icon/nodejs.svg",
+                    "alt":"image icon of Node.JS"
                 }
 
             ]
     },
     {
         "id":2,
+        "route":"project/AllAboutTheUniverse2",
         "title":"All About The Universe",
         "blurb":"Welcome to the 'All About the Universe' project! This project aims to provide users with information about the planets, an introduction to the International Space Station (ISS), and a daily Astronomy Picture of the Day (APOD) from NASA.",
         "detailDescription":"DESCRIPTION:Welcome to the 'All About the Universe' project! This project aims to provide users with information about the planets, an introduction to the International Space Station (ISS), and a daily Astronomy Picture of the Day (APOD) from NASA.",
@@ -35,12 +39,14 @@
                 {
                     "id":2,
                     "name":"CSS",
-                    "icon":"../../public/icon/css.svg"
+                    "icon":"icon/css.svg",
+                    "alt":"image icon of CSS"
                 },
                 {
                     "id":6,
                     "name":"Node.JS",
-                    "icon":"../../public/icon/nodejs.svg"
+                    "icon":"icon/nodejs.svg",
+                    "alt":"image icon of Node.JS"
                 }
 
             ]

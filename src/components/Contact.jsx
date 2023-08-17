@@ -28,7 +28,7 @@ export default function Contact(){
 
 
     return(
-        <div>
+        <div id="contactContainer">
             <a href={email} target="_blank"><img src={emailIcon} width="60"></img></a>
             <a href={githubLink} target="_blank"><img src={githubIcon} width="60"></img></a>
             <a href={linkedin} target="_blank"><img src={linkedinIcon} width="60"></img></a>
