@@ -1,8 +1,8 @@
-import AboutDetail from "../components/AboutDetail.jsx"
+import About from "../components/About.jsx"
 export default function AboutPage(){
     return(
         <>
-            <AboutDetail/>
+            <About/>
         </>
     )
 }
