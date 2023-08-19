@@ -167,3 +167,20 @@
 .footer{
     padding: 0 8rem;
 }
+
+/*--Each Project--*/
+.eachProject__a{
+    font-size: 1.3rem;
+}
+.eachProject__h1{
+    font-weight: bold;
+}
+.eachProject h2{
+    font-size: 2.7rem;
+}
+.eachProject h3{
+    font-size: 2.2rem;
+}
+.eachProject p{
+    font-size: 2rem;
+}
