@@ -1,6 +1,6 @@
 export default function ContactForm(){
     return(
-        <div class="contactForm">
+        <div className="contactForm">
             <form action="#" method="post">
                 <div>
                     <input type="text" name="name" id="name" placeholder="Name"/>

@@ -1,7 +1,7 @@
 import About from "../components/About.jsx"
 export default function AboutPage(){
     return(
-        <div class="main">
+        <div className="main">
             <About/>
         </div>
     )

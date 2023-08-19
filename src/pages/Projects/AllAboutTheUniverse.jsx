@@ -1,6 +1,6 @@
 export default function AllAboutTheUniverse(){
     return(
-        <div class="main">
+        <div className="main">
             <h1>Hi</h1>
         </div>
     )
