@@ -30,9 +30,9 @@ export default function Contact(){
     return(
 
             <div className="contactContainer">
-                <a href={email} target="_blank"><img src={emailIcon} width="60"></img></a>
-                <a href={githubLink} target="_blank"><img src={githubIcon} width="60"></img></a>
-                <a href={linkedin} target="_blank"><img src={linkedinIcon} width="60"></img></a>
+                <a href={email} target="_blank"><img src={emailIcon} alt="email icon" width="60"></img></a>
+                <a href={githubLink} target="_blank"><img src={githubIcon} alt="github icon" width="60"></img></a>
+                <a href={linkedin} target="_blank"><img src={linkedinIcon} alt="linkedin icon" width="60"></img></a>
             </div>
 
     )

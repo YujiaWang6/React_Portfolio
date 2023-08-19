@@ -2,6 +2,7 @@ import { useState, useEffect} from 'react';
 import newtabIcon from "../../../public/icon/newtab.svg";
 import githubIcon from "../../../public/icon/github.svg";
 
+
 export default function CMS(){
     const [project, setProject] = useState([]);
 

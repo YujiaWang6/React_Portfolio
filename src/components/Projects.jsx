@@ -27,10 +27,10 @@ export default function Projects(){
                     <h3 className="projectpage__project_h3"><a href={project.route}>{project.title}</a></h3>
                     <p>{project.blurb}</p>
                     <div className="projectpage__project_detail">
-                        <a href={project.route}><img src={project.image} width="400"/></a>
+                        <a href={project.route}><img src={project.image} alt={project.title} width="400"/></a>
                         <div>
-                            <a href={project.deployingUrl} target="_blank"><img src={newtabIcon} width="60"></img></a>
-                            <a href={project.githubUrl} target="_blank"><img src={githubIcon} width="60"></img></a>
+                            <a href={project.deployingUrl} target="_blank"><img src={newtabIcon} alt="new tab icon" width="60"></img></a>
+                            <a href={project.githubUrl} target="_blank"><img src={githubIcon} alt="github icon" width="60"></img></a>
                         </div>
                     </div>
                     <div className="projectpage__project_lang">

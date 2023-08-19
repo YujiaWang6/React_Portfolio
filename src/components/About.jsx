@@ -66,7 +66,7 @@ export default function About(){
                     )}
                     <a href={resume} target="_blank" className="about__Container_intro_btn">Resume</a>
                 </div>
-                <img src={photo} width="400" className="about__Container_img"></img>
+                <img src={photo} width="400" className="about__Container_img" alt="photo of Yujia Wang"></img>
             </div>
 
             {checkpath?(
@@ -77,7 +77,7 @@ export default function About(){
                     <div className="languages">
                         {languages.map((lang)=>(
                         <div key={lang.id}>
-                            <img src={lang.icon} width="40"></img>
+                            <img src={lang.icon} width="40" alt={lang.alt}></img>
                             <p>{lang.name}</p>
                         </div>
                         ))}
