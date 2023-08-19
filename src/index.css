@@ -64,3 +64,114 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+@media screen and (max-width:1000px){
+  .eachProject__img{
+    width: 600px;
+  }
+}
+@media screen and (max-width:800px){
+  .main{
+    padding: 7rem 3rem 0 3rem;
+  }
+  .footer{
+    padding: 0 3rem;
+}
+}
+@media screen and (max-width:650px){
+  .main{
+    padding: 3rem 1.25rem 0 1.25rem;
+  }
+  .footer{
+    padding: 0 1.25rem;
+}
+  .eachProject{
+    margin-top:1.25rem;
+  }
+  #header__siteName{
+    font-size: 1.25rem;
+    padding-left: 1.25rem;
+  }
+  #header__nav_ul{
+    font-size: 1.15rem;
+  }
+  #header__nav{
+    padding-right: 1.25rem;
+  }
+  h1{
+    font-size: 2.5rem;
+  }
+  .main__h2{
+    font-size:2rem;
+  }
+  .about__Container{
+    font-size: 1rem;
+  }
+  .about__Longintro{
+    font-size: 1.25rem;
+  }
+  #about__skill{
+    font-size: 1.25rem;
+  }
+  #name, #email, #message{
+    font-size: 1.25rem;
+  }
+  #formBtn{
+    font-size: 1rem;
+  }
+  .projectpage__project_h3{
+    font-size: 1.25rem;
+  }
+  .projectpage__project p{
+    font-size: 1rem;
+  }
+  .eachProject__a{
+    font-size: 1rem;
+  }
+  .eachProject h2{
+    font-size: 1.8rem;
+  }
+  .eachProject h3{
+    font-size: 1.5rem;
+  }
+  .eachProject p{
+    font-size: 1.25rem;
+  }
+  .eachProject__img{
+    width: 400px;
+  }
+
+  .projectpage__project{
+    margin-bottom: 1.25rem;
+    padding: 1rem;
+  }
+  .projectpage__project_detail{
+    flex-wrap: wrap;
+  }
+  .projectpage__project_detail_icon{
+    width: 50px;
+  }
+  .projectpage__project_lang_icon{
+    width:30px;
+  }
+}
+
+@media screen and (max-width:472px){
+  #header__nav_ul{
+    gap:1.5rem;
+  }
+  .about__Container_img{
+    width:350px;
+  }
+  .main{
+     padding: 3rem 0 0 0;
+  }
+  .footer{
+    padding: 0;
+}
+
+  .projectpage__project_detail_img{
+    width: 375px;
+  }
+
+}

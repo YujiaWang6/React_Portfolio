@@ -26,7 +26,7 @@ export default function GIFPhotoBooth(){
             <div className="eachProject">
                 <a href="/project" className="eachProject__a">Go back to all the Projects</a>
                 <h1><a href={project.deployingUrl} className="eachProject__h1">{project.title}</a></h1>
-                <a href={project.deployingUrl} target="_blank"><img src={project.imageForDetail} alt={project.title} width="800"></img></a>
+                <a href={project.deployingUrl} target="_blank"><img src={project.imageForDetail} alt={project.title} className="eachProject__img" width="800"></img></a>
                 <h2>Overview</h2>
                 <p>{project.detailDescription}</p>
                 <h2>Functions</h2>
