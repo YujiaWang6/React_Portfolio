@@ -124,18 +124,7 @@
         "githubUrl":"https://github.com/YujiaWang6/GIF-Photo-Booth",
         "languages":
             [
-                {
-                    "id":4,
-                    "name":"C#",
-                    "icon":"icon/csharp.svg",
-                    "alt":"image icon of C sharp"
-                },
-                {
-                    "id":5,
-                    "name":"ASP.NET",
-                    "icon":"icon/aspNET.svg",
-                    "alt":"image icon of ASP.NET"
-                },
+                
                 {
                     "id":1,
                     "name":"HTML",
@@ -153,12 +142,6 @@
                     "name":"JAVASCRIPT",
                     "icon":"icon/javascript.svg",
                     "alt":"image icon of JAVASCRIPT"
-                },
-                {
-                    "id":13,
-                    "name":"Bootstrap",
-                    "icon":"icon/bootstrap.svg",
-                    "alt":"image icon of Bootstrap"
                 }
 
             ]

@@ -53,30 +53,39 @@ export default function About(){
     },[]);
 
     return(
-        <div>
-            <h1>{name}</h1>
+        <div class="about">
+            <div class="about__Container">
+                <div class="about__Container_intro">
+                    <h1>Hi, I'm {name}</h1>
+                    {checkpath?(
+                        <></>
+                    ):(
+                        <>
+                        <h2>{shortIntro}</h2>
+                        </>
+                    )}
+                    <a href={resume} target="_blank" class="about__Container_intro_btn">Resume</a>
+                </div>
+                <img src={photo} width="400" class="about__Container_img"></img>
+            </div>
+
             {checkpath?(
-                <></>
-            ):(
-                <>
-                <h2>{shortIntro}</h2>
-                </>
-            )}
-            <img src={photo} width="400"></img>
-            <a href={resume} target="_blank">Resume</a>
-            {checkpath?(
-                <div>
+                <div class="about__Longintro">
                     <p>{longIntro1}</p>
                     <p>{longIntro2}</p>
                     <h2>Skills</h2>
-                    <div>
+                    <div class="languages">
                         {languages.map((lang)=>(
                         <div key={lang.id}>
+                            <img src={lang.icon} width="40"></img>
                             <p>{lang.name}</p>
                         </div>
                         ))}
                     </div>
-                    <Contact/>
+                    <div class="about__Contact">
+                        <h2>Contact Me</h2>
+                        <Contact/>
+                    </div>
                 </div>
             ):(
                 <></>

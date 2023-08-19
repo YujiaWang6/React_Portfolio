@@ -1,7 +1,7 @@
 export default function ContactForm(){
     return(
-        <div>
-            <form action="post" >
+        <div class="contactForm">
+            <form action="#" method="post">
                 <div>
                     <input type="text" name="name" id="name" placeholder="Name"/>
                 </div>
@@ -11,7 +11,7 @@ export default function ContactForm(){
                 <div>
                     <textarea name="message" id="message" placeholder="Message"/>
                 </div>
-                <button type="submit">Send</button>
+                <button type="submit" id="formBtn">Send</button>
             </form>
         </div>
         

@@ -13,7 +13,7 @@ import AllAboutTheUniverse from './pages/Projects/AllAboutTheUniverse'
 function App() {
   
   return (
-    <div>
+    <>
       <BrowserRouter>
         <Header/>
         <Routes>
@@ -25,7 +25,7 @@ function App() {
         </Routes>
         <Footer/>
       </BrowserRouter>
-    </div>
+    </>
   )
 }
 

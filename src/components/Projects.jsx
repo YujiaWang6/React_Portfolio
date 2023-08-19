@@ -23,16 +23,20 @@ export default function Projects(){
     return(
         <div id="projectpage">
             {projects.map((project)=>(
-                <div key={project.id}>
-                    <h3><a href={project.route}>{project.title}</a></h3>
+                <div key={project.id} class="projectpage__project">
+                    <h3 class="projectpage__project_h3"><a href={project.route}>{project.title}</a></h3>
                     <p>{project.blurb}</p>
-                    <a href={project.route}><img src={project.image} width="400"/></a>
-                    <a href={project.deployingUrl}><img src={newtabIcon} width="60"></img></a>
-                    <a href={project.githubUrl}><img src={githubIcon} width="60"></img></a>
-                    <div>
+                    <div class="projectpage__project_detail">
+                        <a href={project.route} target="_blank"><img src={project.image} width="400"/></a>
+                        <div>
+                            <a href={project.deployingUrl} target="_blank"><img src={newtabIcon} width="60"></img></a>
+                            <a href={project.githubUrl} target="_blank"><img src={githubIcon} width="60"></img></a>
+                        </div>
+                    </div>
+                    <div class="projectpage__project_lang">
                         {project.languages.map((lang) => (
                             <div key={lang.id}>
-                                <img src={lang.icon} alt={lang.alt} width="60"></img>
+                                <img src={lang.icon} alt={lang.alt} width="40"></img>
                             </div>
                         ))}
                     </div>

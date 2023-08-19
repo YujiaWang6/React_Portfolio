@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;600&display=swap');
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Hind', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -16,7 +17,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #000000;
   text-decoration: inherit;
 }
 a:hover {
